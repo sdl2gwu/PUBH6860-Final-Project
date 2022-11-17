@@ -9,7 +9,3 @@ data <- read.csv("/Users/sophiedianelu/Desktop/GW/Coursework/Fall 2022/Bioinform
 data <- subset(data, Geographic.Group != "")
 ```
 
-```{r, echo=FALSE}
-geo <- table(data$Geographic.Group)
-barplot(geo)
-```
